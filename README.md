@@ -1,5 +1,5 @@
-#my dotfiles
+# my dotfiles
 
-##Usage:
+## Usage:
 - stow folder-name
 - stow *
