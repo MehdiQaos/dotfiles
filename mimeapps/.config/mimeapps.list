@@ -1,0 +1,15 @@
+[Added Associations]
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;qpdfview.desktop;
+image/jpeg=org.xfce.ristretto.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+application/x-subrip=org.xfce.mousepad.desktop;
+application/ecmascript=vim.desktop;
+image/png=org.xfce.ristretto.desktop;
+application/octet-stream=nvim.desktop;
+
+[Default Applications]
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
+application/x-subrip=org.xfce.mousepad.desktop
+application/ecmascript=vim.desktop

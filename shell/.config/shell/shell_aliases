@@ -1,0 +1,17 @@
+#aliases
+alias ll='ls -lh'
+alias la='ls -lAh'
+alias l='ls -CF'
+alias addlnx="vim ~/Documents/the\ information/LINUX"
+alias DIC="cat ~/Documents/the\ information/DIC"
+alias arab="trans -t arabic"
+alias _c='xclip -sel clip'
+alias _v='xclip -out -sel clip'
+alias stghim='streamlink -p mpv --player-no-close'
+alias stghom='stghim `_v` best'
+alias strram='rm /mnt/ramdisk/vid; streamlink -o /mnt/ramdisk/vid `_v` best& sleep 7; mpv /mnt/ramdisk/vid'
+#alias nvim='nvim.appimage'
+alias streamlink='streamlink.AppImage'
+#alias twitch='streamlink-twitch-gui-v1.13.0-x86_64.AppImage'
+alias vi='nvim'
+NPM_CONFIG_PREFIX="$HOME/.npm-global"

@@ -1,0 +1,20 @@
+function pdf () {
+  zathura "$@" &> /dev/null & disown
+}
+
+function addic () {
+  echo $1 >> ~/Documents/the\ information/DIC
+}
+
+function dddd () {
+  dd bs=4M if=$1 of=/dev/$2 conv=fsync oflag=direct status=progress
+}
+
+function runn () {
+  $1 "$2" &> /dev/null & disown
+}
+
+function mpiq () {
+  mpv `_v`
+}
+

@@ -1,0 +1,6 @@
+#! /usr/bin/bash
+while read pppiq
+do
+    curl "$pppiq"
+    echo ""
+done < ~/Documents/mehdiqaos.com

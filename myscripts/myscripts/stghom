@@ -1,0 +1,4 @@
+#! /usr/bin/bash
+
+streamlink `xclip -out -sel clip` best
+

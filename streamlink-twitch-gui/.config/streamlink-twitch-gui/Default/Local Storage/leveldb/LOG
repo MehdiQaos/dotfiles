@@ -1,0 +1,6 @@
+2022/02/01-21:03:33.443 923 Reusing MANIFEST /home/mehdi/.config/streamlink-twitch-gui/Default/Local Storage/leveldb/MANIFEST-000001
+2022/02/01-21:03:33.445 923 Recovering log #3
+2022/02/01-21:03:33.445 923 Reusing old log /home/mehdi/.config/streamlink-twitch-gui/Default/Local Storage/leveldb/000003.log 
+2022/02/01-21:07:35.132 923 Level-0 table #5: started
+2022/02/01-21:07:35.139 923 Level-0 table #5: 15663 bytes OK
+2022/02/01-21:07:35.142 923 Delete type=0 #3

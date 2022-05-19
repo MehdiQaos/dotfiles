@@ -1,0 +1,7 @@
+[user]
+	name = Mehdi Qaos
+	email = mehdi.qaos@gmail.com
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
