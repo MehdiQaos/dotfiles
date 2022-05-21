@@ -1,7 +1,7 @@
 #aliases
-alias ll='ls -lh'
-alias la='ls -lAh'
-alias l='ls -CF'
+alias ll='ls -lh --color=auto'
+alias la='ls -lAh --color=auto'
+alias l='ls -CF --color=auto'
 alias addlnx="vim ~/Documents/the\ information/LINUX"
 alias DIC="cat ~/Documents/the\ information/DIC"
 alias arab="trans -t arabic"

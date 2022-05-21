@@ -1,3 +1,5 @@
-ZDOTDIR="$HOME/.config/zsh"
-HISTFILE="$ZDOTDIR/.zsh_history"
-
+ZDOTDIR=$HOME/.config/zsh
+HISTFILE=$ZDOTDIR/.zsh_history
+ZSHPLUGINS=$HOME/.local/share/zsh/plugins
+HISTSIZE=10000
+SAVEHIST=10000
