@@ -27,7 +27,17 @@ source $HOME/.local/share/zsh/plugins/powerlevel10k/powerlevel10k.zsh-theme
 # key binding
 bindkey -e
 bindkey "^U" backward-kill-line
-bindkey '^ ' autosuggest-accept
+bindkey '^ ' forward-word
+bindkey '^[[Z' autosuggest-accept  # shift + tab  | autosuggest
+#bindkey '^ '  complete-word 
+#bindkey '^I'   complete-word       # tab          | complete
+
+# change word concept
+autoload -U select-word-style
+select-word-style bash
+
+export WORDCHARS='.-'
+
 
 # The following lines were added by compinstall
 
