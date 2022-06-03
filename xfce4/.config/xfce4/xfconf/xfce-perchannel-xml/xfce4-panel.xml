@@ -42,6 +42,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="no network connection"/>
         <value type="string" value="wi-fi network connection “cordoba - terass” active: cordoba - terass (63%)"/>
         <value type="string" value="wi-fi network connection “adsl5555” active: adsl5555 (48%)"/>
         <value type="string" value="configuring wi-fi network connection “cordoba 1”…"/>

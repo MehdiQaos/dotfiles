@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=firefox.desktop,google-chrome.desktop,virt-manager.desktop,gparted.desktop,org.xfce.mousepad.desktop,org.qbittorrent.qBittorrent.desktop,sqlitebrowser.desktop,xfce4-settings-editor.desktop,org.xfce.ristretto.desktop,xfce-keyboard-settings.desktop
+recent=firefox.desktop,google-chrome.desktop,org.xfce.mousepad.desktop,org.qbittorrent.qBittorrent.desktop,xfce4-settings-editor.desktop,org.xfce.ristretto.desktop,xfce-keyboard-settings.desktop
 button-icon=archlinux-logo
 button-single-row=false
 show-button-title=false
