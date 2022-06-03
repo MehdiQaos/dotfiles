@@ -1,0 +1,31 @@
+stow --version
+sudo pacman -S stow
+echo sudo pacman -S stow >> MEGAsync/new-arch-install-log
+stow help
+stow juve
+stow -S juve
+stow -D juve
+stow --target=$HOME -D juve
+stow --target=$HOME juve
+stow -d /home/mehdi/Downloads/piq -t ~/Documents/the\ information *
+stow -d /home/mehdi/Downloads/piq -t ~/Documents/the\ information */
+stow -d /home/mehdi/Downloads/piq/* -t ~/Documents/the\ information
+stow -t ~/Documents/the\ information *
+stow -t ~/Documents/the\ information * -D
+stow -d piq -t ~/Documents/the\ information */
+stow -t ~/Documents/the\ information */
+stow -t ~/Documents/the\ information */ -D
+stow -D -t ~/Documents/the\ information */
+stow .fonts
+stow git
+stow myscripts
+stow ssh
+stow -d .dotfiles/vim/ -t /home/mehdi
+stow -d .dotfiles/ vim -t /home/mehdi
+stow --help
+stow -R *
+stow -D nvim_backup
+stow dconf
+mv etc ~/.dotfiles/etc(nostow)
+mv etc ~/.dotfiles/etc_nostow
+history | grep stow

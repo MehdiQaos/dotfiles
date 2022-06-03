@@ -13,3 +13,4 @@ alias strram='rm /mnt/ramdisk/vid; streamlink -o /mnt/ramdisk/vid `_v` best& sle
 alias streamlink='streamlink.AppImage'
 alias vi='nvim'
 alias diff='diff --color'
+alias history="history 1"

@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Beyond the Horizon",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono Dotted', 'Hack Nerd Font', 'SF Mono', 'Iosevka Nerd Font', 'Operator Mono', 'Source Code Pro', 'Monoid', 'PT Mono', 'Inter', 'Monospace'",
+    "editor.fontLigatures": true,
+}

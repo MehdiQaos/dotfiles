@@ -27,10 +27,7 @@ source $HOME/.local/share/zsh/plugins/powerlevel10k/powerlevel10k.zsh-theme
 # key binding
 bindkey -e
 bindkey "^U" backward-kill-line
-bindkey '^ ' forward-word
-bindkey '^[[Z' autosuggest-accept  # shift + tab  | autosuggest
-#bindkey '^ '  complete-word 
-#bindkey '^I'   complete-word       # tab          | complete
+bindkey '^[[Z' forward-word  # shift + tab
 
 # change word concept
 autoload -U select-word-style
@@ -44,7 +41,8 @@ export WORDCHARS='.-'
 zstyle ':completion:*' completer _complete _ignored
 zstyle ':completion:*' menu select=1
 zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
-zstyle :compinstall filename '/home/mehdi/.zshrc'
+zstyle :compinstall filename '$ZDOTDIR/.zshrc'
+#zstyle :compinstall filename '/home/mehdi/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -55,4 +53,3 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
