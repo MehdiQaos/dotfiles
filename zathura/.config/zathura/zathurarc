@@ -21,11 +21,12 @@ set recolor "true"
 set recolor-reverse-video "true"
 set recolor-keephue "true"
 set font                        "Jetbrains Mono 9"
+set nohlsearch
 
-unmap f
-map f toggle_fullscreen
-map [fullscreen] f toggle_fullscreen
-map b toggle_statusbar
+unmap F
+map F toggle_fullscreen
+map [fullscreen] F toggle_fullscreen
+#map b toggle_statusbar #does apparently nothing
 
 #zoom settings
 #set zoom-min 10
