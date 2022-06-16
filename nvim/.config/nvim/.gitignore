@@ -1,7 +1,3 @@
-*compdump*
-.zcomp*
-.zsh_history
-
 # Compiled Lua sources
 luac.out
 

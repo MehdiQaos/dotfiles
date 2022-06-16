@@ -40,7 +40,6 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/close-tab" "<Primary>w")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-side-pane-tree" "<Primary>e")
 ; (gtk_accel_path "<Actions>/ThunarShortcutsPane/sendto-shortcuts" "")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/134cf305a61c72f784680835c93c28fd" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/rename" "F2")
 ; (gtk_accel_path "<Actions>/ThunarWindow/toggle-side-pane" "F9")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-home" "<Alt>Home")
