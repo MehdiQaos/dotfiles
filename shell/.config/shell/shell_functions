@@ -15,7 +15,7 @@ function runn () {
 }
 
 function mpiq () {
-  mpv `_v`
+  mpv $(_v)
 }
 
 function addtya () {
