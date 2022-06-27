@@ -1,5 +1,5 @@
 function pdf () {
-  zathura "$@" &> /dev/null & disown
+  zathura $@ > /dev/null 2>&1 & disown
 }
 
 function addic () {
@@ -11,7 +11,7 @@ function dddd () {
 }
 
 function runn () {
-  $1 "$2" &> /dev/null & disown
+  $1 $2 > /dev/null 2>&1 & disown
 }
 
 function mpiq () {

@@ -21,7 +21,7 @@ set recolor "true"
 set recolor-reverse-video "true"
 set recolor-keephue "true"
 set font                        "Jetbrains Mono 9"
-set nohlsearch
+#set nohlsearch
 
 unmap F
 map F toggle_fullscreen

@@ -3,15 +3,23 @@ alias ls="ls --color=auto"
 alias ll='ls -lh --color=auto'
 alias la='ls -lAh --color=auto'
 alias l='ls -CF --color=auto'
-alias addlnx="vim ~/Documents/the\ information/LINUX"
 alias DIC="cat ~/Documents/the\ information/DIC"
 alias arab="trans -t arabic"
 alias _c='xclip -sel clip'
 alias _v='xclip -out -sel clip'
 alias stghim='streamlink -p mpv --player-no-close'
 alias stghom='stghim `_v` best'
-alias strram='rm /mnt/ramdisk/vid; streamlink -o /mnt/ramdisk/vid `_v` best& sleep 7; mpv /mnt/ramdisk/vid'
-alias streamlink='streamlink.AppImage'
 alias vi='nvim'
 alias diff='diff --color'
 alias history="history 1"
+alias ip="ip --color"
+
+#pacman
+alias pms="pacman -Ss" # search for a package
+alias pmq="pacman -Q" # see info on a package
+alias pmqi="pacman -Qi" # see detailed info on a package
+alias pmql="pacman -Ql" # see files installed by a package
+alias pmi="sudo pacman –needed -S" # install a package
+alias pmr="sudo pacman -Rs" # remove a package, including unneeded deps
+alias pmc="sudo pacman -Sy && pacman -Qu" # check for updates
+alias pmu="sudo pacman -Syu" # update system
