@@ -3,7 +3,7 @@
 <action>
 	<icon>utilities-terminal</icon>
 	<name>Open Terminal Here</name>
-	<unique-id>1639864604305464-1</unique-id>
+	<unique-id>1655131725599252-1</unique-id>
 	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
 	<description>Example for a custom action</description>
 	<patterns>*</patterns>

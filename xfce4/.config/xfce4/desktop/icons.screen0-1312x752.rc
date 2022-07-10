@@ -1,9 +1,17 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[3E26C8CA26C8847D]
+row=0
+col=2
+
+[D2F0D94AF0D93587]
+row=0
+col=3
+
 [Trash]
-row=1
-col=0
+row=0
+col=1
 
 [/home/mehdi]
 row=0
