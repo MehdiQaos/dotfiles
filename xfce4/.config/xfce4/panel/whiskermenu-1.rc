@@ -1,5 +1,5 @@
 favorites=xfce4-file-manager.desktop,xfce4-web-browser.desktop,firefox.desktop,xfce4-terminal-emulator.desktop,xfce-ui-settings.desktop,org.xfce.ristretto.desktop
-recent=firefox.desktop,xfce-settings-manager.desktop,org.qbittorrent.qBittorrent.desktop,google-chrome.desktop,xfce-session-settings.desktop,xfce4-notes.desktop,bssh.desktop,xfce-keyboard-settings.desktop,conky-manager.desktop,conky.desktop
+recent=gparted.desktop,firefox.desktop,xfce-settings-manager.desktop,pavucontrol.desktop,org.qbittorrent.qBittorrent.desktop,google-chrome.desktop,xfce-session-settings.desktop,xfce4-notes.desktop,bssh.desktop,xfce-keyboard-settings.desktop
 button-icon=start-here
 button-single-row=true
 show-button-title=false
