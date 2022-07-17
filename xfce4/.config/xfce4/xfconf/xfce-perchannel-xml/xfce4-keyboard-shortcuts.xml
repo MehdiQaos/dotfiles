@@ -64,6 +64,7 @@
       </property>
       <property name="&lt;Primary&gt;&lt;Alt&gt;semicolon" type="string" value="xfce4-terminal"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;m" type="string" value="/home/mehdi/myscripts/githoub_urils"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;i" type="string" value="/home/mehdi/myscripts/adslreinit"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

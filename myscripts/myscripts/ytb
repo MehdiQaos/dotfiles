@@ -1,4 +1,0 @@
-#! /usr/bin/bash
-
-mpv --keep-open=yes `xclip -out -sel clip`
-

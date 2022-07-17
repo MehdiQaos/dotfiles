@@ -23,3 +23,4 @@ alias pmi="sudo pacman –needed -S" # install a package
 alias pmr="sudo pacman -Rs" # remove a package, including unneeded deps
 alias pmc="sudo pacman -Sy && pacman -Qu" # check for updates
 alias pmu="sudo pacman -Syu" # update system
+alias mirror="reflector --save /etc/pacman.d/mirrorlist --country France,Spain,Germany --protocol https --score 15 --verbose"

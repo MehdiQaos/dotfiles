@@ -1,5 +1,0 @@
-#!/bin/bash
-url=$(eval 'xclip -out -sel clip')
-host='https://github.com/'
-folder_name=${url#$host}
-echo $folder_name | xclip -sel clip
