@@ -19,9 +19,9 @@ function mpiq () {
 }
 
 function addtya () {
-  echo $1 $2 >> "$HOME/Documents/the information/tya"
+  echo $1 $2 >> "$MY_DB_DIR/tya"
 }
 
 function ptya () {
-  cat "$HOME/Documents/the information/tya"
+  cat "$MY_DB_DIR/tya"
 }
