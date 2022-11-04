@@ -6,4 +6,9 @@
       <property name="libinput_Tapping_Enabled" type="int" value="1"/>
     </property>
   </property>
+  <property name="DELL0A2000_0488101A_Touchpad" type="empty">
+    <property name="Properties" type="empty">
+      <property name="libinput_Tapping_Enabled" type="int" value="1"/>
+    </property>
+  </property>
 </channel>
