@@ -11,7 +11,7 @@ function dddd () {
 }
 
 function runn () {
-  $1 $2 > /dev/null 2>&1 & disown
+  $@ > /dev/null 2>&1 & disown
 }
 
 function mpiq () {
@@ -24,4 +24,8 @@ function addtya () {
 
 function ptya () {
   cat "$MY_DB_DIR/tya"
+}
+
+function downtube () {
+    runn yt-dlp -f "bestvideo[height<=?1080][vcodec*=?avc1]+bestaudio/best" $(_v)
 }
