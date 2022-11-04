@@ -64,3 +64,8 @@ nnoremap <leader>yy :normal "+yy<CR>
 
 " add current selected text to X Clipboard
 xnoremap <leader>yy :normal gv"+y<CR>
+
+"nnoremap <Enter> :call append(line('.'), '')<CR>
+"nnoremap <S-Enter> :call append(line('.')-1, '')<CR>
+"nnoremap <silent> <Enter> :<C-u>put =repeat(nr2char(10),v:count)<Bar>execute "'[-1"<CR>
+"nnoremap <silent> <S-Enter> :<C-u>put!=repeat(nr2char(10),v:count)<Bar>execute "']+1"<CR>

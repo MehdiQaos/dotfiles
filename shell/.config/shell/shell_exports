@@ -9,5 +9,6 @@ export VISUAL="nvim"
 export PATH="$PATH:$HOME/.npm-global/bin"
 export NPM_CONFIG_PREFIX="$HOME/.npm-global"
 export MY_DB_DIR="$HOME/.local/share/dbs"
+export PATH="$PATH:/opt/lampp/bin"
 
 #export CLASSPATH="$CLASSPATH:$HOME/Workspace/java/algs4.jar"
