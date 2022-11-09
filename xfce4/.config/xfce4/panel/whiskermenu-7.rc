@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=google-chrome.desktop,gparted.desktop,firefox.desktop,org.zealdocs.Zeal.desktop,visual-studio-code.desktop,discord.desktop,figma-linux.desktop,megasync.desktop,org.qbittorrent.qBittorrent.desktop,org.rnd2.cpupower_gui.desktop
+recent=Alacritty.desktop,firefox.desktop,google-chrome.desktop,nm-connection-editor.desktop,org.qbittorrent.qBittorrent.desktop,org.xfce.mousepad-settings.desktop
 button-icon=archlinux-logo
 button-single-row=false
 show-button-title=false
