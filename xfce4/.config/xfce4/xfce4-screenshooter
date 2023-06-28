@@ -1,11 +1,12 @@
 app=ristretto
 last_user=
 last_extension=png
-screenshot_dir=file:///home/mehdi/Pictures
+screenshot_dir=file:/home/mehdi/Workspace/youcode/sprints/sprint1/brief2
 enable_imgur_upload=true
-action=4
+action=1
 delay=0
-region=2
+region=3
 show_mouse=0
 show_border=1
+show_in_folder=false
 

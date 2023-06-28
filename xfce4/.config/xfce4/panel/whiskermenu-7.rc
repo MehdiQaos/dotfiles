@@ -1,5 +1,9 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
+<<<<<<< HEAD
 recent=google-chrome.desktop,discord.desktop,visual-studio-code.desktop,xfce-display-settings.desktop,xfce-settings-manager.desktop,firefox.desktop,org.qbittorrent.qBittorrent.desktop,xfce-keyboard-settings.desktop,xfce4-terminal.desktop,xfce4-mime-settings.desktop
+=======
+recent=xfce4-clipman.desktop,google-chrome.desktop,firefox.desktop,code.desktop,xfce4-mime-settings.desktop,linguist.desktop,megasync.desktop,xfce4-file-manager.desktop,org.qbittorrent.qBittorrent.desktop
+>>>>>>> temp
 button-icon=archlinux-logo
 button-single-row=false
 show-button-title=false

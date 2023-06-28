@@ -19,6 +19,9 @@ vim.g.maplocalleader = " "
 --   command_mode = "c",
 
 -- Normal --
+-- leader p
+-- xnoremap("<leader>p", "\"_dP")
+
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)

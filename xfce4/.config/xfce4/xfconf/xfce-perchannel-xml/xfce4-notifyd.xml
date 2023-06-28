@@ -7,8 +7,11 @@
       <value type="string" value="Firefox"/>
       <value type="string" value="MEGAsync"/>
       <value type="string" value="nm-applet"/>
+      <value type="string" value="notify-send"/>
+      <value type="string" value="org.freedesktop.network-manager-applet"/>
       <value type="string" value="org.qbittorrent.qBittorrent"/>
       <value type="string" value="org.xfce.Thunar"/>
+      <value type="string" value="Slack"/>
       <value type="string" value="thunar"/>
       <value type="string" value="thunar-volman"/>
       <value type="string" value="Xfce volume control"/>
@@ -17,4 +20,5 @@
     </property>
   </property>
   <property name="do-not-disturb" type="bool" value="false"/>
+  <property name="log-max-size-enabled" type="bool" value="true"/>
 </channel>
