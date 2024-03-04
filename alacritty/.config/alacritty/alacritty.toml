@@ -1,0 +1,64 @@
+#theme = "Taerminal"
+
+[colors.bright]
+black = "#6f6f6f"
+blue = "#c2e3ff"
+cyan = "#c0e9f8"
+green = "#d6fcba"
+magenta = "#ffc6ff"
+red = "#fe978b"
+white = "#ffffff"
+yellow = "#fffed5"
+
+[colors.cursor]
+background = "#f0f0f0"
+foreground = "#26282a"
+
+[colors.normal]
+black = "#26282a"
+blue = "#8bbce5"
+cyan = "#a2e1f8"
+green = "#b4fb73"
+magenta = "#ffb2fe"
+red = "#ff8878"
+white = "#f1f1f1"
+yellow = "#fffcb7"
+
+[colors.primary]
+background = "#26282a"
+foreground = "#f0f0f0"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+#draw_bold_text_with_bright_colors = true
+size = 10.0
+
+[font.bold]
+family = "Hack Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "Hack Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "Hack Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Control|Shift"
+
+[scrolling]
+history = 10000
+
+[window]
+opacity = 0.9
+dimensions = { columns = 100, lines = 45 }

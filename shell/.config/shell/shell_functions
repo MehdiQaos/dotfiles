@@ -26,6 +26,21 @@ function ptya () {
   cat "$MY_DB_DIR/tya"
 }
 
-function downtube () {
+function tubavc () {
     runn yt-dlp -f "bestvideo[height<=?1080][vcodec*=?avc1]+bestaudio/best" $(_v)
 }
+
+function tub () {
+    runn yt-dlp -f "bestvideo[height<=?1080]+bestaudio/best" $(_v)
+}
+
+function youtube() {
+    local video_argument="$1"
+
+    if [ -n "$video_argument" ]; then
+        runn yt-dlp -f "bestvideo[height<=1080]+bestaudio/best" "$video_argument"
+    else
+        runn yt-dlp -f "bestvideo[height<=1080]+bestaudio/best" "$(_v)"
+    fi
+}
+
